@@ -1,0 +1,12 @@
+# 物品设置
+item: CLOCK
+# 物品描述，支持颜色符号
+lore:
+  - '&a右键打开菜单吧QWQ'
+  - '&bLengMenu-好好干吧！'
+
+# 命令设置 (修复语法)
+command:
+  - "[player] dm open Menu"
+  # 如果需要控制台执行命令，可以将 player 改为 console
+  # 示例: "[console] say 菜单被打开"

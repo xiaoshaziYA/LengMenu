@@ -1,0 +1,11 @@
+name: LengMenu
+version: 1.0
+main: shaziawa.LengMenu.LengMenu
+api-version: 1.21
+description: A plugin to provide a special item that executes commands when right-clicked.
+commands:
+  lengmenu:
+    description: Manually get the LengMenu item
+    usage: /lengmenu get
+    permission: lengmenu.use
+    permission-message: You don't have permission to use this command!
